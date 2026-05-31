@@ -3,91 +3,59 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>KSign Store</title>
+<title>Ksign Installer</title>
 
 <style>
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-}
-
 body{
-    background:#0b0b10;
-    color:white;
     font-family:-apple-system,BlinkMacSystemFont,sans-serif;
-    padding:20px;
-}
-
-.container{
     max-width:700px;
     margin:auto;
-}
-
-.card{
-    background:#17171f;
-    border-radius:28px;
-    padding:25px;
+    padding:20px;
     text-align:center;
 }
 
-.logo{
-    width:100px;
-    height:100px;
-    border-radius:24px;
-    object-fit:cover;
-    margin-bottom:15px;
-}
-
-.title{
-    font-size:36px;
-    font-weight:700;
-}
-
-.subtitle{
-    color:#a0a0b0;
-    margin-top:8px;
-    margin-bottom:25px;
+.card{
+    border:1px solid #ddd;
+    border-radius:16px;
+    padding:20px;
+    margin-top:20px;
 }
 
 .install{
-    display:block;
+    display:inline-block;
+    padding:14px 28px;
+    border-radius:12px;
+    text-decoration:none;
+    font-weight:bold;
     background:#007AFF;
     color:white;
-    text-decoration:none;
-    padding:16px;
-    border-radius:16px;
-    font-weight:700;
-    margin-top:12px;
+}
+
+.note{
+    margin-top:15px;
+    color:#666;
 }
 </style>
 </head>
 
 <body>
 
-<div class="container">
+<h1>KSign</h1>
 
 <div class="card">
 
-<img class="logo" src="IMG_0274.png" alt="KSign">
+<h2>KSign 1.6</h2>
 
-<div class="title">KSign</div>
-
-<div class="subtitle">
-Choose a certificate below
-</div>
+<p>Sign and install KSign.</p>
 
 <a class="install"
-href="itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/arianyt03/KSign/main/KSignBOC.plist">
-Install KSign (BOC)
+href="itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/arianyt03/poop/main/ipa.plist">
+Install Ksign
 </a>
 
-<a class="install"
-href="itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/arianyt03/KSign/main/KSignComission.plist">
-Install KSign (Commission on Electronics)
-</a>
-
-</div>
+<p class="note">
+Open this page in Safari and tap Install.
+</p>
 
 </div>
 
